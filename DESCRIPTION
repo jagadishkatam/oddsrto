@@ -21,3 +21,5 @@ LazyData: true
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://github.com/jagadishkatam/oddsrto
+BugReports: https://github.com/jagadishkatam/oddsrto/issues
