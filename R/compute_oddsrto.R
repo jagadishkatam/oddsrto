@@ -19,7 +19,7 @@
 #' @export
 compute_oddsrto <- function(.data, aeterm){
 
-  if (is.null(.data)){
+  if (is.null(.data )){
     stop('data frame is empty')
   }
 

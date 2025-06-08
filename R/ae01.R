@@ -13,5 +13,5 @@
 #'
 #' @examples
 #'
-#' head(ae01 )
+#' head(ae01)
 "ae01"
