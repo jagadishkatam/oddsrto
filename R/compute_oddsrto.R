@@ -23,7 +23,7 @@ compute_oddsrto <- function(.data, aeterm){
     stop('data frame is empty')
   }
 
-  rlang::arg_match(aeterm, names(.data))
+  rlang::arg_match(aeterm, names(.data) )
 
   aeterm1 <- rlang::ensym(aeterm)
 
