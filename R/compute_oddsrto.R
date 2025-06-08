@@ -19,11 +19,11 @@
 #' @export
 compute_oddsrto <- function(.data, aeterm){
 
-  if (is.null(.data)){
+  if (is.null(.data )){
     stop('data frame is empty')
   }
 
-  rlang::arg_match(aeterm, names(.data))
+  rlang::arg_match(aeterm, names(.data) )
 
   aeterm1 <- rlang::ensym(aeterm)
 
