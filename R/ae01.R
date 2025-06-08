@@ -5,7 +5,7 @@
 #'    \item{aebodsys}{body system organ class}
 #'    \item{trt}{treatment name}
 #'    \item{No_Event}{no event}
-#'    \item{Event}{Event}
+#'    \item{Event}{Event }
 #'
 #' }
 #'
