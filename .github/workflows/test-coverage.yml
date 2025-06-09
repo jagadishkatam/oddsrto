@@ -27,7 +27,7 @@ jobs:
         run: |
          install.packages('httr')
          install.packages('curl')
-         install.packages("covr")
+         install.packages(c("devtools", "covr"))
         shell: Rscript {0}
 
       - name: Run tests and upload coverage
