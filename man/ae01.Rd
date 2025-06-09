@@ -10,7 +10,7 @@ a data frame with N rows and M columns. columns include:
 \item{aebodsys}{body system organ class}
 \item{trt}{treatment name}
 \item{No_Event}{no event}
-\item{Event}{Event}
+\item{Event}{Event }
 
 }
 }

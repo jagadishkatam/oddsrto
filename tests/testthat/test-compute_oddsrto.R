@@ -13,12 +13,12 @@ test_that("check the estimate", {
 
 test_that("check the error", {
 
-  ae01 <- NULL
+  ae02 <- NULL
   # debugonce(compute_oddsrto)
   # est1 <- compute_oddsrto(.data=ae01, aeterm='aebodsys')
 
-  expect_error(oddsrto::compute_oddsrto(.data=ae01, aeterm='aebodsys'))
-  expect_warning()
+  expect_error(oddsrto::compute_oddsrto(.data=ae02, aeterm='aebodsys'))
+
 })
 
 test_that("check the aeterms values", {
