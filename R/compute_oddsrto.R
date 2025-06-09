@@ -7,6 +7,7 @@
 #' @import purrr
 #' @import epiR
 #' @import tibble
+#' @import covr
 #'
 #' @importFrom stats setNames
 #' @importFrom rlang ensym

@@ -1,4 +1,3 @@
-
 test_that("check the estimate", {
 
   est <- oddsrto::compute_oddsrto(.data=ae01, aeterm='aebodsys')

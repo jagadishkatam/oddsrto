@@ -14,7 +14,8 @@ Imports:
     magrittr,
     purrr,
     rlang,
-    tibble
+    tibble,
+    covr
 Depends: 
     R (>= 3.5)
 LazyData: true
