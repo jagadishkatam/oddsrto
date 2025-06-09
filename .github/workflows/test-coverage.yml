@@ -24,7 +24,10 @@ jobs:
         shell: Rscript {0}
 
       - name: Install covr
-        run: install.packages("covr")
+        run: |
+         install.packages('httr')
+         install.packages('curl')
+         install.packages("covr")
         shell: Rscript {0}
 
       - name: Run tests and upload coverage
